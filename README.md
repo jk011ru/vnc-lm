@@ -43,7 +43,7 @@ Messaging `stop` will end message generation early. Messaging `reset` returns mo
 - `CHARACTER_LIMIT=` Value controlling the character limit for page embeds. Defaults to 1500.
 - `API_RESPONSE_UPDATE_FREQUENCY=` Value controlling amount of API responses to chunk before updating message. A low number will cause Discord API to throttle. Defaults to 10.
 - `ADMIN=` Discord user ID. This will enable downloading and removing models.
-- `REQUIRE_MENTION=` Require the bot to be mentioned or not. Defaults to false
+- `REQUIRE_MENTION=` Require the bot to be mentioned or not. Defaults to false.
 
 ### Docker Installation (Preferred)
 ```
