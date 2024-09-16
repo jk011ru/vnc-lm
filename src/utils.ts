@@ -32,7 +32,7 @@ export class BotSettings {
       // Restore previous chat settings
       chatBot.modelName = state.lastUsedModel;
       chatBot.system = state.lastSystemPrompt || null;
-      chatBot.temperature = state.lastTemperature || 0.34;
+      chatBot.temperature = state.lastTemperature || 0.4;
       chatBot.numCtx = state.lastNumCtx || defaultNumCtx;
       chatBot.keepAlive = state.lastKeepAlive || defaultKeepAlive;
     }
